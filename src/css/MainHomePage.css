@@ -1,0 +1,25 @@
+.main-home-page {
+    background-color: #e0a9b1;
+    display: flex;
+    justify-content: space-between;
+    /* margin: 1rem; */
+    padding: 2rem;
+}
+.emma-animation-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    height: 65vh;
+}
+.emma-animation-child h1{
+    font-size: 25vw;
+    font-size: 25vh;
+    color: #561F42;
+}
+.light-moss-green {
+    background-color: #b1e0a9;
+}
+.main-home-page_content {
+    padding: 2rem;
+}
