@@ -1,0 +1,25 @@
+.about-me_main {
+  display: flex;
+  justify-content: space-between;
+}
+.about-me_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #dadada;
+}
+.about-me_main img {
+  width: 30vw;
+  height: 70vh;
+}
+.about-me_content {
+  padding: 2rem;
+  border: solid 5px #a8003d;
+}
+.about-me_left {
+  width: 30%;
+}
+.about-me_right {
+  width: 70%;
+}

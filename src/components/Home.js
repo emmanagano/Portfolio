@@ -7,11 +7,21 @@ import Resume from "../home-components/Resume"
 const Home = () => {
     return (
         <div>
-            <MainHomePage />
-            <AboutMe />
-            <FullStack />
-            <Resume />
-            <Contact />
+            <section>
+                <MainHomePage />
+            </section>
+            <section>
+                <AboutMe />
+            </section>
+            <section>
+                <FullStack />
+            </section>
+            <section>
+                <Resume />
+            </section>
+            <section>
+                <Contact />
+            </section>
         </div>
     )
 };

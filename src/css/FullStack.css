@@ -1,0 +1,43 @@
+.full-stack_icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5rem 0;
+}
+.full-stack_main h1 {
+  text-align: center;
+  margin: 1.5rem 0;
+  background-color: black;
+  color: white;
+  padding: 1rem 0;
+}
+.full-stack_main h1:hover {
+  text-align: center;
+  margin: 1.5rem 0;
+  background-color: white;
+  color: black;
+  padding: 1rem 0;
+  border-top: solid 2px black;
+  border-bottom: solid 2px black;
+}
+
+.full-stack_icons svg {
+  width: 12vw;
+  height: 9vh;
+  margin: 1rem;
+}
+.full-stack_pern {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+}
+.full-stack_pern h4,
+.full-stack_pern p {
+  margin: 1rem;
+  font-size: 1.2rem;
+}
+.full-stack_pern span {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

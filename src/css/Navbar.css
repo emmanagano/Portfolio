@@ -1,15 +1,21 @@
+.navbar_buttons {
+  position: fixed;
+}
 .navbar_buttons button {
-    margin: 0.5rem;
-    padding: 0.5rem;
-    width: 6rem;
-    background-color: #1F564E;
-    border: none;
-    color: white;
-    box-shadow: 5px 5px 5px #8D8D8D;
-    border-radius: 20px;
+  /* display: flex;
+  justify-content: center; */
+  /* align-items: center; */
+  margin: 0.5rem;
+  padding: 0.5rem;
+  width: 7rem;
+  height: 2.5rem;
+  background-color: #00a86b;
+  border: none;
+  color: white;
+  box-shadow: 3px 3px 3px lightgray;
+  border-radius: 20px;
 }
 .navbar_buttons button:hover {
-    background-color: #e0a9b1;
-    box-shadow: none;
-    color: black;
+  box-shadow: none;
+  color: black;
 }
