@@ -1,10 +1,15 @@
 {
   "files": {
-    "main.js": "/static/js/main.05160162.js",
+    "main.css": "/static/css/main.aa75d038.css",
+    "main.js": "/static/js/main.29c3ce7a.js",
+    "static/media/pink-rose.jpg": "/static/media/pink-rose.60d0077d7c9fba470df7.jpg",
+    "static/media/qrcode.webp": "/static/media/qrcode.26533c2db5121ef60318.webp",
     "index.html": "/index.html",
-    "main.05160162.js.map": "/static/js/main.05160162.js.map"
+    "main.aa75d038.css.map": "/static/css/main.aa75d038.css.map",
+    "main.29c3ce7a.js.map": "/static/js/main.29c3ce7a.js.map"
   },
   "entrypoints": [
-    "static/js/main.05160162.js"
+    "static/css/main.aa75d038.css",
+    "static/js/main.29c3ce7a.js"
   ]
 }
