@@ -7,7 +7,7 @@ const Navbar = () => {
     return (
         <div className="navbar_buttons">
             <ul>
-                <button>
+                {/* <button>
                     About Me
                 </button>
                 <button>
@@ -15,9 +15,16 @@ const Navbar = () => {
                 </button>
                 <button>
                     Resume
-                </button>
+                </button> */}
                 <button>
                     Contact
+                </button>
+                <button
+                    onClick={() => {
+                        navigate("/")
+                    }}
+                >
+                    Home
                 </button>
                 <button
                     onClick={() => {
@@ -26,13 +33,13 @@ const Navbar = () => {
                 >
                     Projects
                 </button>
-                <button
+                {/* <button
                     onClick={() => {
                         navigate("/special-thanks")
                     }}
                 >
                     Recognition
-                </button>
+                </button> */}
             </ul>
         </div>
     )

@@ -1,0 +1,42 @@
+.home_resume {
+  position: relative;
+}
+.custom-shape-divider-top-1652143765 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1652143765 svg {
+  position: relative;
+  display: block;
+  width: calc(133% + 1.3px);
+  height: 67px;
+}
+
+.custom-shape-divider-top-1652143765 .shape-fill {
+  fill: #ffffff;
+}
+.custom-shape-divider-bottom-1652144077 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1652144077 svg {
+  position: relative;
+  display: block;
+  width: calc(102% + 1.3px);
+  height: 56px;
+}
+
+.custom-shape-divider-bottom-1652144077 .shape-fill {
+  fill: #000000;
+}

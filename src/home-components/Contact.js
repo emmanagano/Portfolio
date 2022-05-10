@@ -1,9 +1,26 @@
+import "../css/Contact.css";
 const Contact = () => {
     return (
-        <div>
+        <div className="contact_main">
             <h1>
-                Contact Page
+                Discuss it with me
             </h1>
+            <form>
+                <input
+                    type="text"
+                    placeholder="Name"
+                />
+                <input
+                    type="text"
+                    placeholder="Email"
+                />
+                <textarea
+                    placeholder="Message"
+                />
+                <button>
+                    Submit
+                </button>
+            </form>
         </div>
     )
 };

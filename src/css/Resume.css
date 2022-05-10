@@ -1,0 +1,46 @@
+.resume_main {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  background-color: #0091a8;
+  margin: 2rem 0 0 0;
+  padding: 4rem 0;
+}
+.resume_scan-me {
+  margin: 1rem;
+}
+.resume_scan-me h3 {
+  text-align: center;
+  color: white;
+  margin: 1rem 0;
+  font-size: 2rem;
+}
+.resume_main img {
+  width: 20vw;
+  height: 40vh;
+  background-color: white;
+}
+.resume_click-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 20vw;
+  height: 45vh;
+  border: solid 10px white;
+  font-size: 5rem;
+  color: white;
+  margin: 1rem 2rem;
+}
+.resume_click-me:hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 20vw;
+  height: 45vh;
+  font-size: 5rem;
+  margin: 1rem 2rem;
+  background-color: white;
+  color: black;
+}

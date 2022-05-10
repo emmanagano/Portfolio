@@ -1,0 +1,40 @@
+.contact_main {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contact_main h1 {
+  margin: 2rem 0;
+  font-size: 2rem;
+}
+.contact_main form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
+}
+.contact_main input,
+.contact_main textarea {
+  margin: 0.5rem;
+  padding: 1rem;
+  font-size: 1.3rem;
+}
+.contact_main input {
+  width: 30rem;
+  height: 3rem;
+}
+.contact_main textarea {
+  height: 12rem;
+  width: 30rem;
+}
+.contact_main button {
+  padding: 0.5rem;
+  width: 8rem;
+  height: 2rem;
+  background-color: white;
+  border: none;
+  margin: 0.5rem;
+}
